@@ -5,7 +5,7 @@ A fully functional, custom-built 3D graphics rendering engine and interactive ap
 
 Instead of relying on modern, pre-packaged game engines (like Unity, Unreal, or Godot) to handle the heavy lifting, this project was developed to demonstrate a deep understanding of core computer graphics, 3D mathematics, spatial matrix transformations, and hardware-accelerated rendering pipelines.
 
-## ⚙️ Core Architecture & Technical Features
+##  Core Architecture & Technical Features
 
 ### 1. Custom 3D Rendering Pipeline
 
@@ -23,14 +23,14 @@ Instead of relying on modern, pre-packaged game engines (like Unity, Unreal, or 
 * **AABB Intersection Algorithm:** Implements a custom Axis-Aligned Bounding Box (AABB) collision detection system. The engine constantly calculates the Euclidean distance and proximity vectors between the player's spatial radius and the surrounding grid boxes, effectively preventing the camera from clipping through solid geometry.
 * **Interactive State Management:** Built-in event loops handle the state of the world dynamically. As the player's collision radius intersects with a collectible item's bounding box, the engine updates the inventory state and removes the entity from the rendering queue.
 
-## 🛠️ Technical Stack & Dependencies
+##  Technical Stack & Dependencies
 
 * **Programming Language:** Python 3.8+
 * **Graphics API:** PyOpenGL / PyOpenGL_accelerate (Direct hardware interface)
 * **Windowing & Input Management:** Pygame
 * **Mathematics:** NumPy (For matrix and vector calculations)
 
-## 🚀 How to Run the Source Code
+##  How to Run the Source Code
 
 1. Ensure your system's graphics drivers support OpenGL hardware acceleration.
 2. Install the necessary Python dependencies via pip:
@@ -49,7 +49,7 @@ Instead of relying on modern, pre-packaged game engines (like Unity, Unreal, or 
 4. Execute the application:
 `python jogo_opengl.py`
 
-## 🎮 Controls
+##  Controls
 
 * **Mouse:** Free-look camera (360-degree first-person view).
 * **W / A / S / D:** Move Forward / Strafe Left / Move Backward / Strafe Right.
